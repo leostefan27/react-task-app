@@ -1,3 +1,3 @@
-# react-task-app
+Simple react task app
 
-#TODO Run *npm install*
+#TODO run *npm install*
