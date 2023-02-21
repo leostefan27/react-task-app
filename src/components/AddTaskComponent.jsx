@@ -11,7 +11,7 @@ const AddTaskComponent = () => {
     e.preventDefault();
 
     if (title && date) {
-      taskContext.addTask(uuidv4, title, date);
+      taskContext.addTask(uuidv4(), title, date);
     } else {
       alert('Please complete all the fields!');
     }
